@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  section {
+    border: 1px solid black;
+  }
+  
+  .sfondo {
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+    position: relative;
+  }
+  
+  #roma > .sfondo {
+    background-image: url(roma.jpg);
+  }
+  
+  #londra > .sfondo {
+    background-image: url(londra.jpeg);
+  }
+  
+  #parigi > .sfondo {
+    background-image: url(parigi.jpg);
+  }
+  
+  #amsterdam > .sfondo {
+    background-image: url(amsterdam.jpg);
+  }
+  
+  .citta {
+    font-size: 50px;
+    text-transform: uppercase;
+    border-radius: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #roma .citta {
+    background-color: rgba(226, 127, 61, 0.5);
+  }
+  
+  #londra .citta {
+    background-color: rgba(178, 163, 122, 0.5);
+  }
+  
+  #parigi .citta {
+    background-color: rgba(144, 219, 226, 0.5);
+  }
+  
+  #amsterdam .citta {
+    background-color: rgba(199, 166, 77, 0.5);
+  }
+  
